@@ -6,7 +6,7 @@ require("discord-reply");
 const client = new Discord.Client();
 const config = require("./config.json");
 
-client.login(config.BOT_TOKEN).catch(console.error);
+client.login(process.env.DISCORD_TOKEN).catch(console.error);
 client.on("ready", () => {
   console.log("Now Online, ready to filter!");
 });
