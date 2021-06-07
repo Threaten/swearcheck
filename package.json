@@ -12,6 +12,7 @@
     "bot"
   ],
   "author": "Nghia",
+
   "license": "ISC",
   "dependencies": {
     "discord-reply": "^0.1.2",
