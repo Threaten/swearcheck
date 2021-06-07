@@ -14,7 +14,7 @@ client.on("ready", () => {
 client.on("message", async (message) => {
   var role = message.guild.roles.cache.get("850693745133355008");
   var checkStr = message.content;
-  var str = checkStr.replace(/[!@#$%^&*=(),.?":{}|<>\s+]/g, "");
+  var str = checkStr.replace(/[!@#$%^&*=()-_,.?"`:{}|<>\s+]/g, "");
   if (config.FILTER_LIST.some((word) => str.toLowerCase().includes(word))) {
     if (role) {
       message.member.roles.add(role);
