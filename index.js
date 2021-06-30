@@ -11,10 +11,12 @@ client.on("ready", () => {
   console.log("Now Online, ready to filter!");
 });
 
-client.user.setActivity("with depression", {
-  type: "PLAYING",
-  url: "Temporarily offline for enhancements."
-});
+client.user.setPresence({
+        activity: {
+          name: "Nghia's TTS Bot | Powered by Google",
+          type: ACTIVITY_TYPE.playing,
+        },
+      })
 
 //temp for commit
 //client.on("message", async (message) => {
