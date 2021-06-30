@@ -17,6 +17,7 @@ client.user.setPresence({
         name: 'with depression',
         type: 'PLAYING',
          name: "Temporarily offline for enhancements"
+    }
 })
 
 //temp for commit
