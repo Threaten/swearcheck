@@ -12,11 +12,12 @@ client.on("ready", () => {
 });
 
 client.user.setPresence({
-        activity: {
-          name: "Nghia's TTS Bot | Powered by Google",
-          type: ACTIVITY_TYPE.playing,
-        },
-      })
+    status: 'online',
+    activity: {
+        name: 'with depression',
+        type: 'PLAYING',
+         name: "Temporarily offline for enhancements"
+})
 
 //temp for commit
 //client.on("message", async (message) => {
