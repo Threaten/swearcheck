@@ -16,6 +16,7 @@ client.user.setActivity("with depression", {
   url: "Temporarily offline for enhancements."
 });
 
+//temp for commit
 //client.on("message", async (message) => {
   //var role = message.guild.roles.cache.get("850693745133355008");
   //var checkStr = message.content;
